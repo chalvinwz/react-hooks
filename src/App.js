@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// import State from './UseState/State';
+// import Reducer from './UseReducer/Reducer';
+// import Effect from './UseEffect/Effect';
+// import Ref from './UseRef/Ref';
+// import LayoutEffect from './UseLayoutEffect/LayoutEffect';
+// import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
+// import Context from './UseContext/Context';
+// import Memo from './UseMemo/Memo';
+import Callback from './UseCallback/Callback';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			{/* <State /> */}
+			{/* <Reducer /> */}
+			{/* <Effect /> */}
+			{/* <Ref /> */}
+			{/* <LayoutEffect /> */}
+			{/* <ImperativeHandle /> */}
+			{/* <Context /> */}
+			{/* <Memo /> */}
+			<Callback />
+		</>
+	);
+};
 
 export default App;
